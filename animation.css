@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+#setinha:hover{
+    animation: girodaseta 0.9s;    
+}
+
+@keyframes girodaseta{
+    0%{
+        transform: rotate(0deg) scale(1);
+    }
+
+    50%{
+        transform: rotate(360deg) scale(1.4);
+    }
+
+    100%{
+        transform: rotate(360deg) scale(1);
+    }
+}
+
+.fotos:hover :not(:hover){
+    opacity: 0.3;
+    scale: 99%;
+    clip-path: polygon(0 3%, 3% 3%, 3% 0, 97% 0, 97% 3%, 100% 3%, 100% 97%, 97% 97%, 97% 100%, 3% 100%, 3% 97%, 0 97%);
+}
+
+img:hover{
+    scale: 1.1;
+    transition: .2s;
+    border: 2px solid  #7c0719;
+}
+
+
+
+
+
+
+
