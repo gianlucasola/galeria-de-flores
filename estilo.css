@@ -257,14 +257,14 @@ main a{
     gap: 10px;
     justify-content: center;
     align-items: center;
-    width: 97%;
+    width: 90%;
     margin-bottom: 30px;
 }
 
 img {
     border-radius: 3px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.301);
-    width: 220px;
+    width: 180px;
     justify-self: center;
     object-fit: cover;
     object-position: center;
