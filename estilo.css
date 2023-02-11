@@ -123,7 +123,6 @@ svg#insta{
 
 /* vv CSS do espaço main vv */
 main{
-    background: #d5df4c;
     /* padding-right: 40px; */
     max-width: 900px;
     display: flex;
@@ -263,10 +262,7 @@ main a{
 img {
     border-radius: 3px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.301);
-    width: 175px;
-    justify-self: center;
-    object-fit: cove;
-    object-position: cente;
+    width: 178px;
 }
 /* ^^ CSS do espaço main ^^ */
 
