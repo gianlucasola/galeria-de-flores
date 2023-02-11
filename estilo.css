@@ -81,8 +81,8 @@ h1{
 }
 
 .div-insta{
-    /* background: #56cadf; */
-    max-width: 40%;
+    background: #56cadf;
+    width: 70%;
     height: 40%;
     margin-bottom: 25px;
     display: flex;
@@ -102,7 +102,6 @@ svg{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
     height: 50%;
 }
 
@@ -133,14 +132,6 @@ main{
     margin: 0 auto;
 }
 
-
-
-
-
-
-
-
-
 .citacao{
     width: 98%;
     /* background: violet; */
@@ -152,6 +143,7 @@ main{
 
 .citacao h2{
     max-width: 85%;
+    margin-top: 75px;
 }
 
 article{
@@ -260,21 +252,19 @@ main a{
 .fotos{
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
     margin: 0 auto;
     padding: 0px;
-    justify-content: space-evenly;
+    gap: 10px;
+    justify-content: center;
     align-items: center;
     width: 97%;
-    max-width: 800px;
     margin-bottom: 30px;
 }
 
 img {
     border-radius: 3px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.301);
-    width: 218px;
-    height: 144px;
+    width: 220px;
     justify-self: center;
     object-fit: cover;
     object-position: center;
