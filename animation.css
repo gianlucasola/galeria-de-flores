@@ -19,8 +19,8 @@
 }
 
 .fotos:hover :not(:hover){
-    opacity: 0.4;
-    scale: 99%;
+    opacity: 0.6;
+    scale: 98%;
     clip-path: polygon(0 3%, 3% 3%, 3% 0, 97% 0, 97% 3%, 100% 3%, 100% 97%, 97% 97%, 97% 100%, 3% 100%, 3% 97%, 0 97%);
 }
 
