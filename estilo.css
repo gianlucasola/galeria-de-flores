@@ -123,9 +123,9 @@ svg#insta{
 
 /* vv CSS do espaço main vv */
 main{
-    /* background: #d5df4c; */
+    background: #d5df4c;
     /* padding-right: 40px; */
-    max-width: 800px;
+    max-width: 1000px;
     display: flex;
     flex-wrap: wrap;
     height: 10%;
@@ -133,7 +133,7 @@ main{
 }
 
 .citacao{
-    width: 98%;
+    width: 80%;
     /* background: violet; */
     margin: 0 auto;
     display: flex;
@@ -257,14 +257,14 @@ main a{
     gap: 10px;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    max-width: 860px;
     margin-bottom: 30px;
 }
 
 img {
     border-radius: 3px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.301);
-    width: 172px;
+    width: 200px;
     justify-self: center;
     object-fit: cover;
     object-position: center;
